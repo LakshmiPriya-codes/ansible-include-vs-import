@@ -1,0 +1,15 @@
+- name: common role message-1 
+  debug:
+    msg: "Hi, i am from common role MSG-1"
+
+- name: common role message-2
+  debug:
+    msg: "Hi, i am from common role MSG-2"
+
+- name: common role message-3 
+  debug:
+    msg: "Hi, i am from common role MSG-3"
+
+- name: common role message-4 
+  debug:
+    msg: "Hi, i am from common role MSG-4"            
