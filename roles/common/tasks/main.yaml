@@ -10,6 +10,10 @@
   debug:
     msg: "Hi, i am from common role MSG-3"
 
+- name: change the facts
+  set_fact: 
+     os: "Debian" #overiding the previous loaded variable   
+
 - name: common role message-4 
   debug:
     msg: "Hi, i am from common role MSG-4"            
